@@ -2,7 +2,7 @@
 
 ## Test Frameworks and Runners
  - `NUnit`
- - `Microsoft.VisualStudio.TestTools.UnitTesting`
+ - `MSTest`
  
 ## Stubbing & Mocking
  - stub w/ constructor dependency injection
@@ -14,7 +14,7 @@
 ## Coverage
  - Visual Studio: `Tests > Analyze Code Coverage > All Tests`
  - [`OpenCoverage`](https://github.com/OpenCover/opencover)
-  * generated HTML reports?
+  * generated HTML reports with [ReportGenerator](https://github.com/danielpalme/ReportGenerator)
  
 ## Fake Test Data
  
