@@ -2,8 +2,9 @@
 
 
 ### Getting Started
-- [ ] Install [Resharper](https://www.jetbrains.com/resharper/download/)
+- Install [Resharper](https://www.jetbrains.com/resharper/download/)
   * optional, but highly recommended
+- Find a buddy!
 
 ### How
 - Pair-programming
@@ -47,7 +48,6 @@
 #### Fake Test Data
  
  - [`Bogus`](https://github.com/bchavez/Bogus) is a port of `faker.js` and has powerful syntax for filling properties with test data
- - TestUtils.cs
  
 #### Code Analysis & Linting
  - Automatic formatting w/ Resharper (ctrl + alt + l)
