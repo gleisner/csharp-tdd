@@ -15,7 +15,7 @@
    * Act / When
    * Assert / Then
 - [Inversion of control](https://martinfowler.com/articles/injection.html)
-   * Use constructor-based dependency injection with the IoC framework of choice
+   * Use constructor-based dependency injection with your IoC framework of choice
      - Naturally limits the number of hard dependencies as you see the number of constructor arguments grow
      - Ensures that the class is fully initialized before it's used (unlike setter-based injection)
 
@@ -38,7 +38,7 @@
 
 - Use [Microsoft Fakes](https://msdn.microsoft.com/en-us/library/hh549175.aspx) for anything else
     * It generates a fake assembly that the system under test will use instead of the real binary
-    * Note that shims are very slow and tedious to setup, so you may want to wrap the dependency in an interface if you'll be using it other classes.
+    * Note that shims are very slow and tedious to setup, so you may want to wrap the dependency if you'll using it frequently
  
 #### Coverage
  - Visual Studio: `Tests > Analyze Code Coverage > All Tests`
