@@ -18,7 +18,10 @@
    * Use constructor-based dependency injection with your IoC framework of choice
      - Naturally limits the number of hard dependencies as you see the number of constructor arguments grow
      - Ensures that the class is fully initialized before it's used (unlike setter-based injection)
-
+- Write easily testable code
+   * Clean code and testable code go hand in hand
+   * [What does untestable code look like?](https://testing.googleblog.com/2008/07/how-to-write-3v1l-untestable-code.html)
+   
 ### Tools
 
 #### Inversion of Control Frameworks
