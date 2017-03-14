@@ -21,6 +21,7 @@
 - Write easily testable code
    * Clean code and testable code go hand in hand
    * [What does untestable code look like?](https://testing.googleblog.com/2008/07/how-to-write-3v1l-untestable-code.html)
+   * [Guide to writing testable code](http://misko.hevery.com/attachments/Guide-Writing%20Testable%20Code.pdf) (Java)
    
 ### Tools
 
